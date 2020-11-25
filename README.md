@@ -4,6 +4,8 @@
 
 OpenCore for macOS Catalina (10.15.7) on Dell OptiPlex 7080 MFF
 
+![Neofetch](./media/neofetch.png)
+
 ## Tutorials
 
 * [折腾 7080MFF 黑苹果 OpenCore](https://www.jianshu.com/p/d7cfaae60509)
