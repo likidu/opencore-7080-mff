@@ -1,6 +1,6 @@
 # OpenCore on Dell OptiPlex 7080 MFF
 
-*Update: 11/24*
+*Update: 11/30*
 
 OpenCore for macOS Catalina (10.15.7) on Dell OptiPlex 7080 MFF
 
@@ -20,19 +20,23 @@ OpenCore for macOS Catalina (10.15.7) on Dell OptiPlex 7080 MFF
 * SSD: Lenovo SL700 PCI-E M.2 256G
 * Sound: ALC256
 * Ethernet: Intel I219-LM7
-* Wireless / BT: Intel AX201
+* Wireless / BT: Replaced AX201 with [BCM94352Z M.2](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/m2.html)
 
 ## Status
 
-### Working
+### Working (with BCM94352Z)
 
 * HWP
 * Sleep
 * iGPU with HiDPI
 * Ethernet
+* WiFi
+* Bluetooth
 * Sound
 
-### Partially working
+### Partially working (with AX201)
+
+If uses AX201, the driver currently is not perfect:
 
 * Wireless, requires Heliport
 * BT, not yet working with BT4.0 devices
