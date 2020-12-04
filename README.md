@@ -1,8 +1,9 @@
 # OpenCore on Dell OptiPlex 7080 MFF
 
-*Update: 11/30*
+*Update: 12/3*
+- Updated OpenCore with latest nightly build (0.6.4)
 
-OpenCore for macOS Catalina (10.15.7) on Dell OptiPlex 7080 MFF
+OpenCore for macOS Big Sur (11.0.1) on Dell OptiPlex 7080 MFF
 
 ![Neofetch](./media/neofetch.png)
 

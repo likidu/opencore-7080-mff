@@ -735,8 +735,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -908,7 +907,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Vg==</data>
 				<key>boot-args</key>
-				<string>igfxonln=1</string>
+				<string>-v debug=0x100 keepsyms=1 igfxonln=1</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
