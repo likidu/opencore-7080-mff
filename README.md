@@ -1,5 +1,8 @@
 # OpenCore on Dell OptiPlex 7080 MFF
 
+*Update: 12/14*
+- Fixed restart issue, thanks 3dudu for this [great tip](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1876879) on patching the ACPI.
+
 *Update: 12/3*
 - Updated OpenCore with latest nightly build (0.6.4)
 
@@ -11,6 +14,10 @@ OpenCore for macOS Big Sur (11.0.1) on Dell OptiPlex 7080 MFF
 
 * [折腾 7080MFF 黑苹果 OpenCore](https://www.jianshu.com/p/d7cfaae60509)
 * [3dudu/dell-optiplex-7080-hackintosh-opencore](https://github.com/3dudu/dell-optiplex-7080-hackintosh-opencore)
+
+## Usage
+
+Use `Install/EFI` for installataion and `Run/EFI` for daily use.
 
 ## Hardware
 
@@ -41,10 +48,6 @@ If uses AX201, the driver currently is not perfect:
 
 * Wireless, requires Heliport
 * BT, not yet working with BT4.0 devices
-
-### Not working
-
-* Reboot and shutdown correctly
 
 ## Gotchas
 
