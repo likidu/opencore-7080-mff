@@ -1,9 +1,13 @@
 # OpenCore on Dell OptiPlex 7080 MFF
 
-*Update: 12/14*
+## Updates
+*1/8*
+- Bump to use OpenCore 0.6.5. Tested in Big Sur 11.2 beta.
+
+*12/14*
 - Fixed restart issue, thanks 3dudu for this [great tip](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1876879) on patching the ACPI.
 
-*Update: 12/3*
+*12/3*
 - Updated OpenCore with latest nightly build (0.6.4)
 
 OpenCore for macOS Big Sur (11.0.1) on Dell OptiPlex 7080 MFF
