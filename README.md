@@ -1,6 +1,6 @@
 # OpenCore on Dell OptiPlex 7080 MFF
 
-OpenCore for macOS Big Sur (11.0.1) on Dell OptiPlex 7080 MFF
+OpenCore for macOS Big Sur (11.2) on Dell OptiPlex 7080 MFF
 
 ![Neofetch](./media/neofetch.png)
 
