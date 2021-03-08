@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <SupportAssistPrebootDiagnosticLog>
+    <Schema>1.0.0</Schema>
+    <LogNumber>1</LogNumber>
+    <LogTimeStamp>12/28/2020 07:36:54</LogTimeStamp>
+    <ePSA_Data>
+      <Result>Fail</Result>
+      <ReturnCode>BOOT_HOST_OS</ReturnCode>
+      <DevicesTested>Disk,Memory</DevicesTested>
+      <LogData>
+        <ePSALogTimeStamp>12/28/2020 07:33:01</ePSALogTimeStamp>
+        <ePSAVersion>ED.1.0.2</ePSAVersion>
+        <ErrorCode>2000:0145</ErrorCode>
+        <ValidationCode>123094</ValidationCode>
+        <ErrorMessage><![CDATA[Disk 2 - S/N LSL78256B09AF01120, self test did not complete.]]></ErrorMessage>
+      </LogData>
+      <ePSAInfo><![CDATA[serviceTag=57TST73&errCode=0145&ValCode=123094&fru=_&uID=08F5A]]></ePSAInfo>
+      <ePSAFullVersion>ED.1.0.2</ePSAFullVersion>
+      <ePSAInvocationCount>1</ePSAInvocationCount>
+    </ePSA_Data>
+    <BIOS_Data>
+      <ErrorCategory>OS_BOOT_FAILURE</ErrorCategory>
+      <SOS_Available>FALSE</SOS_Available>
+      <TimeOutSeconds>0</TimeOutSeconds>
+      <OSBootFailCount>2</OSBootFailCount>
+    </BIOS_Data>
+  </SupportAssistPrebootDiagnosticLog>
