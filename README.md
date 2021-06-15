@@ -1,6 +1,6 @@
 # OpenCore on Dell OptiPlex 7080 MFF
 
-OpenCore for macOS Big Sur (11.2.2) on Dell OptiPlex 7080 MFF
+OpenCore for macOS Big Sur (11.4) on Dell OptiPlex 7080 MFF
 
 ![Neofetch](./media/neofetch.png)
 
@@ -56,6 +56,7 @@ If uses AX201, the driver currently is not perfect:
 
 ## Updates
 
+-   **6/15**: Update to OpenCore 0.7.0. Tested on Big Sur 11.4.
 -   **3/8**: Update to OpenCore 0.6.7. Tested on Big Sur 11.2.2. Also replaced the `USBPort.kext` with `USBMap.kext` for correct [USB mapping](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html).
 -   **1/22**: Upgrade to Big Sur 11.2 RC smoothly.
 -   **1/8**: Update to OpenCore 0.6.5. Tested on Big Sur 11.2 beta.
